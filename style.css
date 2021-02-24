@@ -116,3 +116,23 @@ body::after{
   transform: translateY(3px);
   display: none;
 }
+
+/* site content */
+.site-main-content{
+  /* height: 80vh;
+  display: grid;
+  place-items: center; */
+}
+
+.site-content-box{
+  display: flex;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.content-right img {
+  transform: translateX(20vw);
+  -webkit-transform: translateX(20vw);
+}
