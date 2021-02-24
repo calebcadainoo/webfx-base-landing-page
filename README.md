@@ -1,4 +1,4 @@
-### Objective
+<!-- ### Objective
 
 Your assignment is to implement a responsive landing page and get it looking as close to the design as possible, using JavaScript and no framework,
 
@@ -49,4 +49,4 @@ Please organize, design, test and document your code as if it were going into pr
 
 All the best and happy coding,
 
-The WebFX Team
+The WebFX Team -->
