@@ -201,10 +201,97 @@ body::after{
 
 .schedule-btn:hover {
   opacity: 0.8;
-  padding: 15px 35px;
+  padding: 15px 30px;
 }
 
 .unique-line-height {
   transform: translateY(10px);
   -webkit-transform: translateY(10px);
+}
+
+/* responsie styles */
+@media screen and (max-width: 1028px) {
+  .site-action-box .site-sub-tag {
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  body::after {
+    height: 61.5vh;
+  }
+
+  .site-h1{
+    font-size: 3rem;
+  }
+
+  .site-content-box{
+    flex-direction: column;
+  }
+
+  .site-content{
+    width: 100%;
+  }
+
+  .content-left {
+    order: 2;
+  }
+  
+  .content-right {
+    order: 1;
+  }
+
+  .content-right img {
+    height: 90% !important;
+    object-fit: cover;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    position: relative;
+    left: -40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .page-center{
+    padding: 0 25px;
+  }
+
+  .content-right {
+    margin-bottom: 90px;
+  }
+
+  .content-right img {
+    height: 63vw !important;
+    left: -1.9rem;
+  }
+
+  .content-left {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .site-h1{
+    font-size: 2.2rem;
+  }
+
+  .content-right img {
+    left: -1.2rem;
+  }
+
+  .content-top .site-sub-tag{
+    padding: 2px 7px;
+  }
+
+  .schedule-btn,
+  .site-action-box .site-sub-tag {
+    letter-spacing: 1px;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .schedule-btn {
+    padding: 15px 20px;
+    margin-right: 0;
+  }
 }
