@@ -140,13 +140,12 @@ body::after{
 }
 
 .content-right img {
-  transform: translateX(20vw);
-  -webkit-transform: translateX(20vw);
+  transform: translateX(5vw);
+  -webkit-transform: translateX(5vw);
 }
 
 /* content left */
 .content-left{
-  flex: 2 !important;
   flex-shrink: 0;
 }
 
@@ -202,6 +201,7 @@ body::after{
 
 .schedule-btn:hover {
   opacity: 0.8;
+  padding: 15px 35px;
 }
 
 .unique-line-height {
