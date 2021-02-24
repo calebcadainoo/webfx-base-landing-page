@@ -21,8 +21,8 @@ body, html {
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   position: relative;
+  overflow-x: hidden;
 }
 
 body::after{
@@ -40,4 +40,79 @@ body::after{
 /* applied default font to all elements */
 * {
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* page center */
+.page-center{
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* navigation bar */
+.navigation-bar{
+  padding: 50px 0;
+}
+
+.navigation-inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* logo */
+.site-logo{
+
+}
+
+.navigation-right, .navigation-menu{
+  display: flex;
+}
+
+
+.navigation-menu{
+  list-style: none;
+ transform: translateY(-15px);
+ -webkit-transform: translateY(-15px);
+}
+
+.navigation-menu li {
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navigation-menu li:last-child{
+  margin-right: 0;
+}
+
+.navigation-menu li a{
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+}
+
+.login-link a {
+  color: var(--grayish-blue) !important;
+}
+
+.navigation-menu li a:hover{
+  text-decoration: underline;
+}
+
+.navigation-dot{
+  position: relative;
+}
+
+.navigation-dot::after{
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: var(--grayish-blue);
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  border-radius: 50%;
+}
+
+.navigation-mobile-menu-icon{
+  transform: translateY(3px);
+  display: none;
 }
