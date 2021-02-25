@@ -255,6 +255,7 @@ body::after{
 @media screen and (max-width: 769px) {
   .navigation-menu {
     display: none;
+    opacity: 0;
     width: 75vw;
     max-width: 400px;
     background: #fff;
